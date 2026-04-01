@@ -112,7 +112,7 @@ export default function Home() {
       <div className="relative z-10 min-h-screen">
         <div className="flex min-h-screen items-center justify-center px-6 py-16">
           <section className="relative flex w-full max-w-5xl flex-col items-center text-white">
-            <h1 className="font-regular text-4xl font-black lowercase tracking-[0.08em] text-white sm:text-6xl md:text-7xl">
+            <h1 className="font-regular text-5xl font-black lowercase tracking-[0.08em] text-white sm:text-7xl md:text-8xl">
               rahmatov
             </h1>
 
