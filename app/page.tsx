@@ -15,39 +15,7 @@ const panels = {
       <>
         16 y.o from <Image src="/pirate.svg" alt="" width={16} height={16} aria-hidden="true" className="mr-1 inline-block h-4 w-4 align-[-2px]" />
         <br />
-        frontend:
-        <br />
-        <Image src="/html.svg" alt="" width={16} height={16} aria-hidden="true" className="mr-1 inline-block h-4 w-4 align-[-2px]" />html
-        {" "}
-        <Image src="/css.svg" alt="" width={16} height={16} aria-hidden="true" className="mr-1 inline-block h-4 w-4 align-[-2px]" />css
-        {" "}
-        <Image src="/typescript.svg" alt="" width={16} height={16} aria-hidden="true" className="mr-1 inline-block h-4 w-4 align-[-2px]" />typescript
-        {" "}
-        <Image src="/javascript.svg" alt="" width={16} height={16} aria-hidden="true" className="mr-1 inline-block h-4 w-4 align-[-2px]" />javascript
-        {" "}
-        <Image src="/next-js.svg" alt="" width={16} height={16} aria-hidden="true" className="mr-1 inline-block h-4 w-4 align-[-2px]" />next.js
-        {" "}
-        <Image src="/pnpm.svg" alt="" width={16} height={16} aria-hidden="true" className="mr-1 inline-block h-4 w-4 align-[-2px]" />pnpm
-        <br />
-        backend:
-        <br />
-        <Image src="/python.svg" alt="" width={16} height={16} aria-hidden="true" className="mr-1 inline-block h-4 w-4 align-[-2px]" />python
-        {" "}
-        <Image src="/fastapi.svg" alt="" width={16} height={16} aria-hidden="true" className="mr-1 inline-block h-4 w-4 align-[-2px]" />fastapi
-        {" "}
-        <Image src="/postgresql.svg" alt="" width={16} height={16} aria-hidden="true" className="mr-1 inline-block h-4 w-4 align-[-2px]" />postgresql
-        {" "}
-        <Image src="/redis.svg" alt="" width={16} height={16} aria-hidden="true" className="mr-1 inline-block h-4 w-4 align-[-2px]" />redis
-        <br />
-        other:
-        <br />
-        <Image src="/docker.svg" alt="" width={16} height={16} aria-hidden="true" className="mr-1 inline-block h-4 w-4 align-[-2px]" />docker
-        {" "}
-        <Image src="/nginx.svg" alt="" width={16} height={16} aria-hidden="true" className="mr-1 inline-block h-4 w-4 align-[-2px]" />nginx
-        {" "}
-        <Image src="/caddy.svg" alt="" width={16} height={16} aria-hidden="true" className="mr-1 inline-block h-4 w-4 align-[-2px]" />caddy
-        {" "}
-        <Image src="/pm2.svg" alt="" width={16} height={16} aria-hidden="true" className="mr-1 inline-block h-4 w-4 align-[-2px]" />pm2
+        frontend & backend dev
       </>
     ],
   },
@@ -148,7 +116,7 @@ export default function Home() {
               rahmatov
             </h1>
 
-            <div className="mt-6 flex w-full max-w-3xl items-center justify-center gap-5">
+            <div className="font-unbound mt-6 flex w-full max-w-3xl items-center justify-center gap-5">
               <div className="flex items-center gap-4 text-[10px] uppercase tracking-[0.24em] sm:text-[11px]">
                 <button
                   type="button"
@@ -184,7 +152,7 @@ export default function Home() {
               </div>
             </div>
 
-            <div className="pointer-events-none absolute left-1/2 top-full z-20 mt-4 w-full max-w-104 -translate-x-1/2 px-2 sm:max-w-md">
+            <div className="font-unbound pointer-events-none absolute left-1/2 top-full z-20 mt-4 w-full max-w-104 -translate-x-1/2 px-2 sm:max-w-md">
               <div
                 id="bio-panel"
                 className={`pointer-events-auto w-full rounded-3xl border border-white/20 bg-black/45 p-4 shadow-[0_20px_80px_rgba(0,0,0,0.45)] backdrop-blur-xl transition-all duration-300 ease-out sm:p-5 ${
